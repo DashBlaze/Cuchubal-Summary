@@ -1,12 +1,13 @@
 body {
-    Overflow:auto;
+    overflow-y: auto;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100vh;
     margin: 0;
+    padding: 20px;
 }
 
 .container {
@@ -14,7 +15,9 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
 }
 
 h1 {
